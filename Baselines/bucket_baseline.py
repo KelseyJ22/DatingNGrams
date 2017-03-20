@@ -2,7 +2,7 @@ from sklearn import metrics
 from sklearn.linear_model import LogisticRegression
 from sklearn.naive_bayes import GaussianNB
 from sklearn.svm import SVC
-from sklearn_utils import load_dataset
+from sklearn_utils_bucket import load_dataset
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfTransformer
 import numpy as np
